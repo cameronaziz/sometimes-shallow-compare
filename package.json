@@ -1,0 +1,28 @@
+{
+  "name": "@cameronaziz/sometimes-shallow-compare",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "private": false,
+  "types": "src/typings/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --outfile=dist/index.js",
+    "compile": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cameronaziz/sometimes-shallow-compare.git"
+  },
+  "author": {
+    "name": "Cameron Aziz",
+    "email": "cameronaziz@me.com"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "esbuild": "^0.17.10",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "typed-enumerate": "^1.1.2"
+  }
+}
